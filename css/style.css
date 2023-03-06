@@ -284,7 +284,7 @@ button {
     float: left;
     position: absolute;
     background-image: url(../images/banner-bg.png);
-    height: 620px;
+    height: 615px;
     background-size: 100%;
     z-index: 1;
 }
@@ -294,7 +294,7 @@ button {
     position: relative;
     left: -90px;
     background-image: url(../images/img-1.jpg);
-    height: 620px;
+    height: 615px;
     background-size: 100%;
 }
 .banner_img_2 {
@@ -303,7 +303,7 @@ button {
      position: relative;
      left: -90px;
      background-image: url(../images/img-2.jpg);
-     height: 620px;
+     height: 615px;
      background-size: 100%;
  }
  .banner_img_3 {
@@ -312,7 +312,7 @@ button {
      position: relative;
      left: -90px;
      background-image: url(../images/img-3.jpg);
-     height: 620px;
+     height: 615px;
      background-size: 100%;
  }
 .banner_taital {
@@ -320,7 +320,7 @@ button {
     float: left;
     font-size: 30px;
     color: #ffffff;
-    padding-top: 90px;
+    padding-top: 40px;
 }
 .long_text{
     width: 100%;
@@ -848,7 +848,7 @@ button {
 }
 
 .contacts_row{
-     margin-bottom: 25px;
+     margin-bottom: 30px;
 }
 
 .contacts_text{
@@ -913,4 +913,3 @@ button {
 
 }
 .mobile_header{ display: none; }
-

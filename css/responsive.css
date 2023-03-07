@@ -493,5 +493,13 @@ ul.link li {
     width: 80%;
     float: left;
 }
-
+.about_images_rows{
+    display: flex; 
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+}
+.about_taital{
+    margin-bottom:15px;
+}
 }

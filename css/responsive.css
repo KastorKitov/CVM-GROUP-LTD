@@ -502,4 +502,7 @@ ul.link li {
 .about_taital{
     margin-bottom:15px;
 }
+.list_holder_container{
+    flex-direction: column;
+}
 }

@@ -499,10 +499,32 @@ ul.link li {
     justify-content: center; 
     align-items: center;
 }
+.about_images_rows_container{
+    border-bottom-left-radius: 0px; 
+}
+.about_we_provide_container{
+    border-top-right-radius: 0px; 
+    border-bottom-right-radius: 0px;
+}
 .about_taital{
     margin-bottom:15px;
 }
 .list_holder_container{
     flex-direction: column;
+}
+.about_companies_row_container{
+    flex-direction: column;
+}
+.about_companies_column{
+    background-color: white;
+    padding: 5px;
+    border-radius: 0px;
+    margin: 10px 30px;
+    flex: 1 1 0;
+    width: auto;
+}
+.list_holder_mobile_diff{
+    margin-right:0px;
+    margin-bottom:20px;
 }
 }

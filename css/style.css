@@ -908,6 +908,7 @@ button {
 .about_images_bt{
      width: 100%;
      float: left;
+     padding-top:15px;
 }
 .about_images_bt a{
      width: 100%;
@@ -948,6 +949,13 @@ button {
      list-style-type: disc;
      font-size: 22px;
      font-weight: 600;
+     /* font-family: 'Courier New', Courier, monospace; */
+}
+.about_list_item3{
+     color:#303036;
+     list-style-type: disc;
+     font-size: 22px;
+     font-weight: 500;
      /* font-family: 'Courier New', Courier, monospace; */
 }
 .about_we_provide_container{
@@ -1010,6 +1018,14 @@ button {
 }
 .list_holder_mobile_diff{
      margin-right:10px
+}
+.about_last_row{
+     display: flex; 
+     flex-direction: column; 
+     justify-content: center; 
+     align-items: center;
+     margin-left: 15%;
+     margin-right: 15%;
 }
 
 @media (min-width: 768px) {

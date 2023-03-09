@@ -527,4 +527,12 @@ ul.link li {
     margin-right:0px;
     margin-bottom:20px;
 }
+.aliplast_document_img{
+    width: 300px;
+    height: 500px;
+}
+.about_last_row{
+    margin-left: 0px;
+    margin-right: 0px;
+}
 }

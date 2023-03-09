@@ -500,7 +500,8 @@ ul.link li {
     align-items: center;
 }
 .about_images_rows_container{
-    border-bottom-left-radius: 0px; 
+    border-bottom-left-radius: 0px;
+    animation: none;
 }
 .about_we_provide_container{
     border-top-right-radius: 0px; 

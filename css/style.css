@@ -337,6 +337,8 @@ button {
 .about_us{
      width: 45%;
      float: left;
+     animation: fadeIn 2s;
+  	opacity: 1;
 }
 .about_us a{
      width: 100%;
@@ -356,6 +358,8 @@ button {
 .galery_bt{
      width: 45%;
      float: left;
+     animation: fadeIn 3s;
+  	opacity: 1;
 }
 .galery_bt a{
      width: 100%;
@@ -936,6 +940,7 @@ button {
      display: flex; 
      flex-direction: column; 
      justify-content: space-evenly;
+     animation: 2s ease-out 0s 1 slideInRight;
 }
 .about_list_item{
      color:#303036;
@@ -967,6 +972,7 @@ button {
      flex-direction: column;
      justify-content: center;
      align-items: center;
+     animation: 2s ease-out 0s 1 slideInLeft;
 }
 .about_we_provide{
      display: flex; 
@@ -983,9 +989,10 @@ button {
      flex-direction: column;
      align-items: center;
      background-color: #4d4f59;
-     /* background-color: #303137; */
      border-radius: 32px;
      padding: 20px;
+     animation: fadeIn 3s;
+  	opacity: 1;
 }
 .about_companies_row_container{
      background-color: #13c5dd;
@@ -1043,3 +1050,30 @@ button {
 
 }
 .mobile_header{ display: none; }
+
+@keyframes slideInLeft {
+     0% {
+       transform: translateX(-100%);
+     }
+     100% {
+       transform: translateX(0);
+     }
+}
+
+@keyframes slideInRight {
+     0% {
+       transform: translateX(100%);
+     }
+     100% {
+       transform: translateX(0);
+     }
+}
+
+@keyframes fadeIn {
+     from {
+          opacity: 0;
+     }
+     to {
+         opacity: 1;
+     }
+   }

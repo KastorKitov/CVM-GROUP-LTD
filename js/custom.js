@@ -2,6 +2,14 @@
     File Name: custom.js
 ---------------------------------------------------------------------*/
 
+function openFullImg(pic){
+	$('#fullImgBox').css("display","flex");
+	$('#fullImg').attr('src', pic.slice(0,(pic.length - 4)) + "_fullSize.jpg");
+}
+
+function closeFullImg(){
+	$('#fullImgBox').css("display","none");
+}
 $(function () {
 	
 	"use strict";
